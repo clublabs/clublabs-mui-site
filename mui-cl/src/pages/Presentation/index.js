@@ -72,6 +72,7 @@ function Presentation() {
               textAlign="center"
               px={{ xs: 6, lg: 12 }}
               mt={1}
+              pb={1}
             >
               ClubLabs is the digital acceleration team for AAA – and we have one goal; to build
               something awesome.
