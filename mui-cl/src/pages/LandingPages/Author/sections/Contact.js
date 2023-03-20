@@ -84,7 +84,7 @@ function Contact() {
                         ml={2}
                         fontWeight="regular"
                       >
-                        (310) 123-4567
+                        (714) 886-7759
                       </MKTypography>
                     </MKBox>
                     <MKBox display="flex" color="white" p={1}>
@@ -99,7 +99,7 @@ function Contact() {
                         ml={2}
                         fontWeight="regular"
                       >
-                        hello@clublabs.com
+                        burgess.jay@clublabs.com
                       </MKTypography>
                     </MKBox>
                     <MKBox display="flex" color="white" p={1}>
@@ -125,10 +125,7 @@ function Contact() {
                         <i className="fab fa-twitter" style={{ fontSize: "1.25rem" }} />
                       </MKButton>
                       <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-dribbble" style={{ fontSize: "1.25rem" }} />
-                      </MKButton>
-                      <MKButton variant="text" color="white" size="large" iconOnly>
-                        <i className="fab fa-tiktok" style={{ fontSize: "1.25rem" }} />
+                        <i className="fab fa-instagram" style={{ fontSize: "1.25rem" }} />
                       </MKButton>
                     </MKBox>
                   </MKBox>
@@ -141,7 +138,8 @@ function Contact() {
                       Say Hi!
                     </MKTypography>
                     <MKTypography variant="body1" color="text" mb={2}>
-                      We&apos;d like to talk with you.
+                      Whether you are interested in joining the team, or just curious about
+                      ClubLabs, let us know what we can do for you.
                     </MKTypography>
                   </MKBox>
                   <MKBox pt={0.5} pb={3} px={3}>
@@ -158,8 +156,8 @@ function Contact() {
                       <Grid item xs={12} pr={1} mb={6}>
                         <MKInput
                           variant="standard"
-                          label="I'm looking for"
-                          placeholder="What you love"
+                          label="Subject"
+                          placeholder="Role applications / question"
                           InputLabelProps={{ shrink: true }}
                           fullWidth
                         />
@@ -168,7 +166,7 @@ function Contact() {
                         <MKInput
                           variant="standard"
                           label="Your message"
-                          placeholder="I want to say that..."
+                          placeholder="Hi, I'm reaching out to ask..."
                           InputLabelProps={{ shrink: true }}
                           fullWidth
                           multiline

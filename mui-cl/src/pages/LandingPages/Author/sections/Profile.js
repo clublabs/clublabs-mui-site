@@ -1,7 +1,7 @@
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
-import Icon from "@mui/material/Icon";
+// import Icon from "@mui/material/Icon";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -20,13 +20,12 @@ function Profile() {
           </MKBox>
 
           <MKTypography variant="body1" fontWeight="light" color="text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed laoreet faucibus auctor.
-            Fusce enim nibh, lobortis in ante cursus, pellentesque malesuada ante. Nunc et bibendum
-            nisi, tristique convallis est. Nulla quis ligula consequat, bibendum nisl in, tincidunt
-            est. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc a odio id arcu
-            volutpat porta. In hac habitasse platea dictumst. Cras vel est metus. Vestibulum iaculis
-            vehicula rutrum.
-            <MKTypography
+            Founded in 1900 by 10 Los Angeles-area professionals, AAA has continually anticipated
+            the needs of those who count on us and provided unique new services, expanding to offer
+            membership, insurance, travel, discounts, financial, and automotive services to more
+            than 17 million members. All of which means an abundance of new opportunities to learn,
+            grow, and advance throughout our thriving organization.
+            {/* <MKTypography
               component="a"
               href="#"
               variant="body1"
@@ -49,7 +48,7 @@ function Profile() {
               }}
             >
               Learn more <Icon sx={{ fontWeight: "bold" }}>chevron_right</Icon>
-            </MKTypography>
+            </MKTypography> */}
           </MKTypography>
         </Grid>
       </Container>

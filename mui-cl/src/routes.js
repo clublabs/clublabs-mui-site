@@ -8,6 +8,7 @@ import Icon from "@mui/material/Icon";
 import AboutUs from "layouts/pages/landing-pages/about-us";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
 import Author from "layouts/pages/landing-pages/author";
+import Presentation from "layouts/pages/presentation";
 // import SignIn from "layouts/pages/authentication/sign-in";
 
 const routes = [
@@ -39,6 +40,12 @@ const routes = [
   //     },
   //   ],
   // },
+  {
+    name: "Home",
+    icon: <Icon>home</Icon>,
+    route: "/pages/presentation",
+    component: <Presentation />,
+  },
   {
     name: "Work & Culture",
     icon: <Icon>diversity_3</Icon>,

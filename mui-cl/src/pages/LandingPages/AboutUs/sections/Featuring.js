@@ -23,7 +23,7 @@ function Featuring() {
         <Grid container justifyContent="center" sx={{ textAlign: "center" }}>
           <Grid item xs={12} md={3}>
             <DefaultCounterCard
-              count={100}
+              count={120}
               separator=","
               suffix="+"
               title="Years in business"
@@ -32,7 +32,7 @@ function Featuring() {
           </Grid>
           <Grid item xs={12} md={3}>
             <DefaultCounterCard
-              count={3400}
+              count={14000}
               separator=","
               suffix="+"
               title="Employees nationwide"
@@ -43,7 +43,7 @@ function Featuring() {
             <DefaultCounterCard
               count={24}
               suffix="/7"
-              title="Support anywhere"
+              title="Member support"
               description="Actively engage team members that finishes on time"
             />
           </Grid>

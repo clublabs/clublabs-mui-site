@@ -19,7 +19,7 @@ import Information from "pages/Presentation/sections/Information";
 import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
 // import Pages from "pages/Presentation/sections/Pages";
 // import Testimonials from "pages/Presentation/sections/Testimonials";
-import Download from "pages/Presentation/sections/Download";
+// import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -109,7 +109,7 @@ function Presentation() {
           <Grid container spacing={3}>
             <Grid item xs={12} lg={4}>
               <FilledInfoCard
-                variant="gradient"
+                // variant="gradient"
                 color="info"
                 icon="groups_2_two-tone"
                 title="We are member-centric"
@@ -197,7 +197,7 @@ function Presentation() {
           <BuiltByDevelopers />
         </Container>
         {/* <Testimonials /> */}
-        <Download />
+        {/* <Download /> */}
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

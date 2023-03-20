@@ -80,7 +80,8 @@ const iconContainer = {
   border: "1px solid #344767",
   backgroundColor: "white",
   // display: "inlineBlock",
-  marginRight: "5px",
+  marginRight: "10px",
+  marginLeft: "15px",
   display: "flex",
   justifyContent: "center",
   // alignItems: "center",
@@ -89,10 +90,6 @@ const iconContainer = {
 const grayBg = {
   backgroundColor: "#efefef",
   borderRadius: "10px",
-};
-
-const grayFont = {
-  color: "#344767",
 };
 
 // const center = {
@@ -104,63 +101,16 @@ function Places() {
   return (
     <MKBox component="section" py={2}>
       <Container>
-        <Grid container item pt={3} xs={12} lg={6}>
+        <Grid container item xs={12} lg={6}>
           <MKTypography variant="h3" mb={6}>
-            Work & Culture
+            A Day at ClubLabs
           </MKTypography>
         </Grid>
         <Grid container item xs={12}>
-          <MKTypography variant="body1" mb={6}>
+          <MKTypography variant="body1" mb={3}>
             Here at ClubLabs, work is about much more than the day-to-day, we strive to deliver an
             employee experience so great that it excites our people to positively impact our members
-            experiences with our products and services. Here are some important Cultural aspects
-            about ClubLabs:
-            <br />
-            <br />
-            <ul style={{ paddingLeft: "1rem", color: "#344767" }}>
-              <li style={grayFont}>
-                We are member-centric. Everything we do is for the good of our members – their trust
-                is our most valuable possession.
-              </li>
-              <br />
-              <li style={grayFont}>
-                We are a not-for-profit organization. We are here for our members and because of our
-                members – no stockholders, no investment groups, simply us doing our best for our
-                members.
-              </li>
-              <br />
-              <li style={grayFont}>
-                120+ year legacy and financial stability. We work for an historic organization that
-                has been around for over 120 years! With this history comes culture and stability.
-                Whatever the economic outlook, we have always stood the test of time.
-              </li>
-              <br />
-              <li style={grayFont}>
-                We develop our people. If you are looking for an organization to learn and grow,
-                then look no further. We are passionate about providing technical and leadership
-                development training to help you obtain your career ambitions, including the
-                Technical Talent Acceleration Program.
-              </li>
-              <br />
-              <li style={grayFont}>
-                We care about our communities. We offer all employees 8 hours of paid volunteer time
-                to give back to the communities in which we serve, in addition to partnering with
-                United Way & Habitat for Humanity.
-              </li>
-              <br />
-              <li style={grayFont}>
-                A top-notch employee experience matters to us. Here at ClubLabs we know that our
-                people are what makes us so special, that’s why we offer our people with a free
-                membership, free tickets, fun employee events, frequent feedback and 1:1’s, employee
-                discounts, social clubs, employee engagement groups, flexible work programs, a games
-                room, stocked kitchens, 401k & pension, benefits and more!
-              </li>
-            </ul>
-          </MKTypography>
-        </Grid>
-        <Grid container item xs={12} lg={6}>
-          <MKTypography variant="h3" mb={6}>
-            A day at ClubLabs
+            experiences with our products and services.
           </MKTypography>
         </Grid>
         <Grid container item xs={12}>
@@ -199,12 +149,12 @@ function Places() {
         </Grid>
         <Grid container item xs={12} lg={6}>
           <MKTypography variant="h3" mb={6}>
-            The power of teams collaboration
+            The Power of Teams Collaboration
           </MKTypography>
         </Grid>
         <Grid container item xs={12}>
           <MKTypography variant="body1" mb={6}>
-            Our People are our power, and when we collaborate, we accelerate our success and achieve
+            Our people are our power, and when we collaborate, we accelerate our success and achieve
             awesomeness. Below shares our process and how we collaborate day-in and day-out.
           </MKTypography>
         </Grid>
@@ -226,7 +176,7 @@ function Places() {
           </MKTypography>
         </Grid>
         <Grid container item xs={12} style={grayBg}>
-          <MKTypography variant="h5" my={2} ml={2}>
+          <MKTypography variant="h5" my={3} ml={2}>
             Culture
           </MKTypography>
         </Grid>
@@ -299,7 +249,7 @@ function Places() {
           </Grid>
         </Grid>
         <Grid container item xs={12} style={grayBg}>
-          <MKTypography variant="h5" my={2} ml={2}>
+          <MKTypography variant="h5" my={3} ml={2}>
             Diversity
           </MKTypography>
         </Grid>
@@ -312,7 +262,7 @@ function Places() {
           </Grid>
         </Grid>
         <Grid container item xs={12} style={grayBg}>
-          <MKTypography variant="h5" my={2} ml={2}>
+          <MKTypography variant="h5" my={3} ml={2}>
             Health Insurance & Wellness Benefits
           </MKTypography>
         </Grid>
@@ -365,7 +315,7 @@ function Places() {
           </Grid>
         </Grid>
         <Grid container item xs={12} style={grayBg}>
-          <MKTypography variant="h5" my={2} ml={2}>
+          <MKTypography variant="h5" my={3} ml={2}>
             Perks & Discounts
           </MKTypography>
         </Grid>

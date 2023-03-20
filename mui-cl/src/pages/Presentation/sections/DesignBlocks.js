@@ -7,7 +7,7 @@ import Grid from "@mui/material/Grid";
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-import MKBadge from "components/MKBadge";
+// import MKBadge from "components/MKBadge";
 import MKTypography from "components/MKTypography";
 
 // Presentation page components
@@ -55,13 +55,13 @@ function DesignBlocks() {
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
         >
-          <MKBadge
+          {/* <MKBadge
             variant="contained"
             color="info"
             badgeContent="Welcome to"
             container
             sx={{ mb: 2 }}
-          />
+          /> */}
           <MKTypography variant="h2" fontWeight="bold">
             How does ClubLabs fit into AAA?
           </MKTypography>
