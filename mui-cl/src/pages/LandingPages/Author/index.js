@@ -16,7 +16,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/city-profile2.jpg";
+import bgImage from "assets/images/work-hero.jpg";
 
 function Author() {
   return (

@@ -29,7 +29,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
       bgColor="white"
       borderRadius="xl"
       shadow="lg"
-      minHeight="10rem"
+      // maxHeight="12rem"
       sx={{
         overflow: "hidden",
         transform: "perspective(999px) rotateX(0deg) translate3d(0, 0, 0)",
@@ -37,6 +37,7 @@ function ExampleCard({ image, name, count, pro, ...rest }) {
         backfaceVisibility: "hidden",
         willChange: "transform, box-shadow",
         transition: "transform 200ms ease-out",
+        height: "220px",
 
         "&:hover": {
           transform: "perspective(999px) rotateX(7deg) translate3d(0px, -4px, 5px)",

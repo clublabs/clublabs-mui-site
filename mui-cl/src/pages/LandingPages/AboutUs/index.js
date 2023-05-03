@@ -23,7 +23,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/past6.png";
+import bgImage from "assets/images/about-hero.png";
 
 function AboutUs() {
   return (

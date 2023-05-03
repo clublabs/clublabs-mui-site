@@ -1,4 +1,10 @@
-import imagesPrefix from "assets/images/gray-box.png";
+// import imagesPrefix from "assets/images/gray-box.png";
+import ux from "assets/images/ux.jpg";
+import eng from "assets/images/engineers.jpg";
+import qa from "assets/images/qa.jpg";
+import product from "assets/images/product.jpg";
+import devop from "assets/images/devop.jpg";
+import seo from "assets/images/seo.jpg";
 
 export default [
   {
@@ -6,36 +12,36 @@ export default [
     description: "Hear from our employees and explore what a day at clublabs looks like.",
     items: [
       {
-        image: `${imagesPrefix}`,
+        image: `${ux}`,
         name: "UX",
         route: "#",
       },
       {
-        image: `${imagesPrefix}`,
+        image: `${eng}`,
         name: "Engineers",
         // count: 14,
         route: "#",
       },
       {
-        image: `${imagesPrefix}`,
+        image: `${qa}`,
         name: "QA",
         // count: 8,
         route: "#",
       },
       {
-        image: `${imagesPrefix}`,
+        image: `${product}`,
         name: "Product",
         // count: 1,
         route: "#",
       },
       {
-        image: `${imagesPrefix}`,
+        image: `${devop}`,
         name: "Dev Ops",
         // count: 11,
         route: "#",
       },
       {
-        image: `${imagesPrefix}`,
+        image: `${seo}`,
         name: "SEO",
         // count: 11,
         route: "#",

@@ -24,7 +24,7 @@ import MKButton from "components/MKButton";
 import MKTypography from "components/MKTypography";
 
 // Images
-import bgImage from "assets/images/la-4.jpg";
+import bgImage from "assets/images/contact.jpg";
 
 function Contact() {
   return (
