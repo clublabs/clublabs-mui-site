@@ -44,7 +44,7 @@ function DesignBlocks() {
   ));
 
   return (
-    <MKBox component="section" my={6} py={6}>
+    <MKBox component="section" my={3} py={1}>
       <Container>
         <Grid
           container

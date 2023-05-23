@@ -17,9 +17,6 @@ import FilledInfoCard from "examples/Cards/InfoCards/FilledInfoCard";
 // import Counters from "pages/Presentation/sections/Counters";
 import Information from "pages/Presentation/sections/Information";
 import DesignBlocks from "pages/Presentation/sections/DesignBlocks";
-// import Pages from "pages/Presentation/sections/Pages";
-// import Testimonials from "pages/Presentation/sections/Testimonials";
-// import Download from "pages/Presentation/sections/Download";
 
 // Presentation page components
 import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
@@ -193,10 +190,9 @@ function Presentation() {
           </Grid>
         </Container>
         <Information />
-        <Container sx={{ mt: 6 }}>
+        <Container sx={{ mt: 3 }}>
           <BuiltByDevelopers />
         </Container>
-        {/* <Testimonials /> */}
         {/* <Download /> */}
       </Card>
       <MKBox pt={6} px={1} mt={6}>

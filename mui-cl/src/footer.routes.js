@@ -20,19 +20,19 @@ export default {
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com/ClubLabs/",
     },
     {
       icon: <TwitterIcon />,
-      link: "https://twitter.com/creativetim",
+      link: "https://twitter.com/ClublabsI",
     },
     {
       icon: <GitHubIcon />,
-      link: "https://github.com/creativetimofficial",
+      link: "#",
     },
     {
       icon: <YouTubeIcon />,
-      link: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
+      link: "https://www.youtube.com/AAA",
     },
   ],
   menus: [
@@ -41,8 +41,6 @@ export default {
       items: [
         { name: "about us", href: "#" },
         // { name: "freebies", href: "https://www.creative-tim.com/templates/free" },
-        // { name: "premium tools", href: "https://www.creative-tim.com/templates/premium" },
-        // { name: "blog", href: "https://www.creative-tim.com/blog" },
       ],
     },
     {
@@ -50,7 +48,6 @@ export default {
       items: [
         { name: "Work & Culture", href: "#" },
         // { name: "bits & snippets", href: "https://www.creative-tim.com/bits" },
-        // { name: "affiliate program", href: "https://www.creative-tim.com/affiliates/new" },
       ],
     },
     {
@@ -59,7 +56,6 @@ export default {
         { name: "contact us", href: "#" },
         { name: "careers", href: "#" },
         // { name: "custom development", href: "https://services.creative-tim.com/" },
-        // { name: "sponsorships", href: "https://www.creative-tim.com/sponsorships" },
       ],
     },
     // {

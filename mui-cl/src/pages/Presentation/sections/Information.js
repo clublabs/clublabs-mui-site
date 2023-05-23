@@ -18,11 +18,11 @@ import "animate.css";
 
 // Images
 // import bgFront from "assets/images/rotating-card-bg-front.jpeg";
-import bgBack from "assets/images/rotating-card-bg-back.jpeg";
+import bgBack from "assets/images/rotating-card-bg-back.jpg";
 
 function Information() {
   return (
-    <MKBox component="section" py={6} my={6}>
+    <MKBox component="section" py={3} my={3}>
       <Container>
         <Grid
           container
