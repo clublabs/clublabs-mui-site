@@ -14,7 +14,7 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // About Us page sections
 import Information from "pages/LandingPages/AboutUs/sections/Information";
-import Team from "pages/LandingPages/AboutUs/sections/Team";
+import BuiltByDevelopers from "pages/Presentation/components/BuiltByDevelopers";
 import Featuring from "pages/LandingPages/AboutUs/sections/Featuring";
 import History from "pages/LandingPages/AboutUs/sections/History";
 
@@ -106,7 +106,9 @@ function AboutUs() {
         <Information />
         <History />
         <Featuring />
-        <Team />
+        <Container sx={{ mt: 3 }}>
+          <BuiltByDevelopers />
+        </Container>
       </Card>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />

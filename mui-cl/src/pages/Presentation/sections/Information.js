@@ -18,7 +18,9 @@ import "animate.css";
 
 // Images
 // import bgFront from "assets/images/rotating-card-bg-front.jpeg";
-import bgBack from "assets/images/rotating-card-bg-back.jpg";
+import bgBack from "assets/images/rotating-card-bg-back1.jpg";
+import bgBack2 from "assets/images/rotating-card-bg-back2.jpg";
+import bgBack3 from "assets/images/rotating-card-bg-back3.jpg";
 
 function Information() {
   return (
@@ -49,7 +51,7 @@ function Information() {
           </MKTypography>
         </Grid>
 
-        <Grid container item xs={11} spacing={3} alignItems="center" sx={{ mx: "auto" }}>
+        <Grid container item xs={11} spacing={2} alignItems="center" sx={{ mx: "auto" }}>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront
@@ -91,7 +93,7 @@ function Information() {
                 description=""
               />
               <RotatingCardBack
-                image={bgBack}
+                image={bgBack2}
                 title=""
                 description="You are someone who readily admits what you don't know - you're always looking to get better (and you're really good at getting better)."
                 // action={{
@@ -117,7 +119,7 @@ function Information() {
                 description=""
               />
               <RotatingCardBack
-                image={bgBack}
+                image={bgBack3}
                 title=""
                 description="But you know data is a starting point (it doesn't tell you everything) and you continue to learn."
                 // action={{
