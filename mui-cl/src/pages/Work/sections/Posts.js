@@ -103,7 +103,7 @@ function Places() {
       <Container>
         <Grid container item xs={12} lg={6}>
           <MKTypography variant="h3" mb={6}>
-            A Day at ClubLabs
+            A Day at ClubLabs dfdg
           </MKTypography>
         </Grid>
         <Grid container item xs={12}>
