@@ -51,7 +51,7 @@ function Information() {
           </MKTypography>
         </Grid>
 
-        <Grid container item xs={11} spacing={2} alignItems="center" sx={{ mx: "auto" }}>
+        <Grid container item xs={11} spacing={2} alignItems="center" sx={{ maxWidth: "100%" }}>
           <Grid item xs={12} lg={4} sx={{ mx: "auto" }}>
             <RotatingCard>
               <RotatingCardFront

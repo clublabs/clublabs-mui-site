@@ -462,6 +462,7 @@ function DefaultNavbar({ routes, transparent, light, action, sticky, relative, c
         // position={relative ? "relative" : "absolute"}
         position="fixed"
         left={0}
+        top={0}
         zIndex={3}
         sx={({ palette: { transparent: transparentColor, white }, functions: { rgba } }) => ({
           backgroundColor: transparent ? transparentColor.main : rgba(white.main, 0.8),
