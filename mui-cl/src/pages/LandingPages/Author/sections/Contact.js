@@ -1,18 +1,3 @@
-/*
-=========================================================
-* Material Kit 2 React - v2.0.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2021 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 // @mui material components
 import Container from "@mui/material/Container";
 import Grid from "@mui/material/Grid";
@@ -84,7 +69,7 @@ function Contact() {
                         ml={2}
                         fontWeight="regular"
                       >
-                        (714) 886-7759
+                        (714) 000-0000
                       </MKTypography>
                     </MKBox>
                     <MKBox display="flex" color="white" p={1}>
@@ -99,7 +84,7 @@ function Contact() {
                         ml={2}
                         fontWeight="regular"
                       >
-                        burgess.jay@clublabs.com
+                        xxx@clublabs.com
                       </MKTypography>
                     </MKBox>
                     <MKBox display="flex" color="white" p={1}>
@@ -139,7 +124,7 @@ function Contact() {
                     </MKTypography>
                     <MKTypography variant="body1" color="text" mb={2}>
                       Whether you are interested in joining the team, or just curious about
-                      ClubLabs, let us know what we can do for you.
+                      Clublabs, let us know what we can do for you.
                     </MKTypography>
                   </MKBox>
                   <MKBox pt={0.5} pb={3} px={3}>

@@ -71,7 +71,7 @@ function Presentation() {
               mt={1}
               pb={1}
             >
-              ClubLabs is the digital acceleration team for AAA – and we have one goal; to build
+              Clublabs is the digital acceleration team for AAA – and we have one goal; to build
               something awesome.
             </MKTypography>
             <MKTypography

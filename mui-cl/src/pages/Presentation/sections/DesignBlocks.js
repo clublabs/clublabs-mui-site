@@ -63,7 +63,7 @@ function DesignBlocks() {
             sx={{ mb: 2 }}
           /> */}
           <MKTypography variant="h2" fontWeight="bold">
-            How does ClubLabs fit into AAA?
+            How does Clublabs fit into AAA?
           </MKTypography>
           <MKTypography variant="body1" color="text">
             Clublabs is a department within AAA which is made up of the top technical talent on
