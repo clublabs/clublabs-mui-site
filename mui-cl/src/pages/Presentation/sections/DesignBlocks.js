@@ -13,6 +13,9 @@ import MKTypography from "components/MKTypography";
 // Presentation page components
 import ExampleCard from "pages/Presentation/components/ExampleCard";
 
+// animate
+import "animate.css";
+
 // Data
 import data from "pages/Presentation/sections/data/designBlocksData";
 
@@ -20,11 +23,23 @@ function DesignBlocks() {
   const renderData = data.map(({ title, description, items }) => (
     <Grid container spacing={3} sx={{ mb: 10 }} key={title}>
       <Grid item xs={12} lg={3}>
-        <MKBox position="sticky" top="100px" pb={{ xs: 2, lg: 6 }}>
+        <MKBox
+          position="sticky"
+          top="100px"
+          pb={{ xs: 2, lg: 6 }}
+          className="animate__animated animate__fadeInUp animate__delay-2s"
+        >
           <MKTypography variant="h3" fontWeight="bold" mb={1}>
             {title}
           </MKTypography>
-          <MKTypography variant="body2" fontWeight="regular" color="secondary" mb={1} pr={2}>
+          <MKTypography
+            variant="body2"
+            fontWeight="regular"
+            color="secondary"
+            mb={1}
+            pr={2}
+            className="animate__animated animate__fadeInUp animate__delay-3s"
+          >
             {description}
           </MKTypography>
         </MKBox>
@@ -54,6 +69,7 @@ function DesignBlocks() {
           flexDirection="column"
           alignItems="center"
           sx={{ textAlign: "center", my: 6, mx: "auto", px: 0.75 }}
+          className="animate__animated animate__fadeInUp animate__delay-1s"
         >
           {/* <MKBadge
             variant="contained"
