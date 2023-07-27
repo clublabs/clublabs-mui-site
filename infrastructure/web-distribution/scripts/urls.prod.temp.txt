@@ -1,0 +1,36 @@
+https://{DOMAIN}.prod.clublabs.net/aar|AAR UI
+https://{DOMAIN}.prod.clublabs.net/acechatbot|Address Change
+https://{DOMAIN}.prod.clublabs.net/autopay/|Enroll in Auto Pay
+https://{DOMAIN}.prod.clublabs.net/autopayconsent/|Autopay Consent
+https://{DOMAIN}.prod.clublabs.net/b2b/home/mortgagee-request|Homeowners Mortgage Request
+https://{DOMAIN}.prod.clublabs.net/change-username/|Change Username
+https://{DOMAIN}.prod.clublabs.net/enterprise/cpa/|California Privacy Rights
+https://{DOMAIN}.prod.clublabs.net/enterprise/forms/|Communication Preferences
+https://{DOMAIN}.prod.clublabs.net/enterprise/identity/|Login
+https://{DOMAIN}.prod.clublabs.net/erschatbot|Make a payment
+https://{DOMAIN}.prod.clublabs.net/insurance/auto/coveragechange|Coverage Change
+https://{DOMAIN}.prod.clublabs.net/insurance/auto/efnol|First Notice of Loss
+https://{DOMAIN}.prod.clublabs.net/membership/autopay-enrollment/|Membership
+https://{DOMAIN}.prod.clublabs.net/insurance/billingsummary|Billing Summary
+https://{DOMAIN}.prod.clublabs.net/insurance/claims/summary|Policy Change
+https://{DOMAIN}.prod.clublabs.net/insurance/home/efnol|First Notice of Loss
+https://{DOMAIN}.prod.clublabs.net/insurance/home/mortgage-change|Policy Change
+https://{DOMAIN}.prod.clublabs.net/insurance/home/olb|Buy Insurance Online
+https://{DOMAIN}.prod.clublabs.net/insurance/make-a-payment/|AAA
+https://{DOMAIN}.prod.clublabs.net/insurance/monthly-payment-plan/|Monthly Payment Plan
+https://{DOMAIN}.prod.clublabs.net/insurance/policyview|Policy View
+https://{DOMAIN}.prod.clublabs.net/insurance/quotes/shortform|AAA Insurance Quote
+https://{DOMAIN}.prod.clublabs.net/membership/autopay-enrollment/|Membership
+https://{DOMAIN}.prod.clublabs.net/membership/join|AAA - Membership Join
+https://{DOMAIN}.prod.clublabs.net/membership/make-a-payment/|Membership
+https://{DOMAIN}.prod.clublabs.net/membership/manage|AAA - Membership Manage
+https://{DOMAIN}.prod.clublabs.net/membership/newjoin|AAA - Join Membership
+https://{DOMAIN}.prod.clublabs.net/membership/offer|AAA - Membership Join Offer
+https://{DOMAIN}.prod.clublabs.net/membership/windshield|AAA - Windshield Repair
+https://{DOMAIN}.prod.clublabs.net/mobile/android/Uat/sample.txt|sample file
+https://{DOMAIN}.prod.clublabs.net/mobile/ios/uat/sample.txt|sample file
+https://{DOMAIN}.prod.clublabs.net/payments/|Online payments
+https://{DOMAIN}.prod.clublabs.net/payments/manage-saved-payment-methods|Manage Saved
+https://{DOMAIN}.prod.clublabs.net/quickupgrade/|AAA - QuickUpgrade
+https://{DOMAIN}.prod.clublabs.net/recoverpassword/|AAA - forgot password
+https://{DOMAIN}.prod.clublabs.net/ziprouter/1.0.9/ace-zip-router.js|zipCode

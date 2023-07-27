@@ -1,0 +1,39 @@
+{
+  "name": "@web-distribution/cdk-app",
+  "version": "0.1.0",
+  "license": "MIT",
+  "bin": {
+    "web-distribution-v2": "bin/web-distribution-v2.js"
+  },
+  "scripts": {
+    "clean": "yarn clean-build && yarn clean-modules",
+    "clean-modules": "rimraf node_modules **/node_modules */**/node_modules",
+    "clean-build": "rimraf **/dist **/build **/.aws-sam  **/cdk.out **/*.js **/*.d.ts",
+    "build": "tsc",
+    "watch": "tsc -w",
+    "cdk": "cdk",
+    "synth": "cdk synth"
+  },
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "copy-modules-webpack-plugin": "^2.1.1",
+    "ts-loader": "9.4.2",
+    "@clublabs/aws-tags": "1.2.13",
+    "@clublabs/aws-cdk-tagging": "2.0.13",
+    "@clublabs/account-profiles": "*",
+    "@clublabs/aws-cdk-codepipeline": "^2.9.6",
+    "@types/node": "10.17.27",
+    "@types/prettier": "2.6.0",
+    "aws-cdk": "2.79.1",
+    "@aws-cdk/core": "*",
+    "ts-node": "^10.9.1",
+    "typescript": "~4.9.4"
+  },
+  "dependencies": {
+    "rimraf": "3.0.0",
+    "aws-cdk-lib": "2.79.1",
+    "constructs": "^10.0.0",
+    "source-map-support": "^0.5.21"
+  }
+}
